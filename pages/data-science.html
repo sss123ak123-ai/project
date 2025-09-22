@@ -1,0 +1,278 @@
+<!-- pages/data-science.html -->
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>علوم البيانات | تخصصات علوم الحاسوب</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+  <style>
+    .specialty-page {
+      background: linear-gradient(135deg, #2a9d8f, #e9c46a);
+      color: #1d3557;
+      padding: 3rem 5%;
+      min-height: 100vh;
+    }
+    .specialty-header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    .specialty-header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .specialty-header p {
+      font-size: 1.2rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .job-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1.5rem;
+      margin: 2rem 0;
+    }
+    .job-card {
+      background: white;
+      border-radius: 15px;
+      padding: 1.5rem;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    .job-card h3 {
+      color: #2a9d8f;
+      margin-bottom: 0.5rem;
+    }
+    .skills {
+      background: #f4f1de;
+      padding: 1rem;
+      border-radius: 10px;
+      margin-top: 1rem;
+    }
+    .skills h4 {
+      margin-bottom: 0.5rem;
+      color: #1d3557;
+    }
+    .skills ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .skills li {
+      padding: 0.3rem 0;
+      border-bottom: 1px dashed #a8dadc;
+    }
+    .skills li:last-child {
+      border-bottom: none;
+    }
+    .dig-deeper {
+      text-align: center;
+      padding: 2rem;
+      background: #f4f1de;
+      border-radius: 15px;
+      margin-top: 2rem;
+    }
+    .dig-deeper h2 {
+      margin-bottom: 1rem;
+    }
+    .meme-line {
+      text-align: center;
+      margin-top: 3rem;
+      font-size: 1.2rem;
+      color: #2a9d8f;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">🎓 تخصصات علوم الحاسوب</div>
+    <ul class="nav-links">
+      <li><a href="../index.html">الرئيسية</a></li>
+      <li><a href="#specialties">التخصصات</a></li>
+      <li><a href="contact.html">تواصل معنا</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <section class="specialty-page">
+    <div class="specialty-header">
+      <h1>علوم البيانات</h1>
+      <p>✨ علوم البيانات هي فن تحويل البيانات إلى رؤى تساعد الشركات والباحثين على اتخاذ قرارات ذكية. إذا كنت تحب الأرقام والتحليل، فهذا هو ملعبك! 📊🧠</p>
+    </div>
+
+    <h2 style="text-align: center; margin: 2rem 0;">الوظائف المتاحة</h2>
+    <div class="job-list">
+      <!-- Data Analyst -->
+      <div class="job-card">
+        <h3>📊 محلل بيانات (Data Analyst)</h3>
+        <p>يقوم بتحليل البيانات واستخراج تقارير واضحة لدعم اتخاذ القرار.</p>
+        <div class="skills">
+          <h4>المهارات المطلوبة:</h4>
+          <ul>
+            <li>SQL</li>
+            <li>Excel</li>
+            <li>Power BI / Tableau</li>
+            <li>Data Visualization</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Data Scientist -->
+      <div class="job-card">
+        <h3>🤖 عالم بيانات (Data Scientist)</h3>
+        <p>يبني نماذج إحصائية وتعلم آلي للتنبؤ بالاتجاهات المستقبلية.</p>
+        <div class="skills">
+          <h4>المهارات المطلوبة:</h4>
+          <ul>
+            <li>Python / R</li>
+            <li>Machine Learning</li>
+            <li>Deep Learning</li>
+            <li>Statistics</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Data Engineer -->
+      <div class="job-card">
+        <h3>🛠 مهندس بيانات (Data Engineer)</h3>
+        <p>يبني أنظمة لمعالجة البيانات وتدفقها بين قواعد البيانات والتطبيقات.</p>
+        <div class="skills">
+          <h4>المهارات المطلوبة:</h4>
+          <ul>
+            <li>SQL & NoSQL</li>
+            <li>Big Data (Hadoop, Spark)</li>
+            <li>ETL Pipelines</li>
+            <li>Python / Scala</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- BI Analyst -->
+      <div class="job-card">
+        <h3>🔍 محلل ذكاء أعمال (Business Intelligence Analyst)</h3>
+        <p>يحّول البيانات إلى Dashboards وتقارير لدعم الاستراتيجية.</p>
+        <div class="skills">
+          <h4>المهارات المطلوبة:</h4>
+          <ul>
+            <li>Power BI / Tableau</li>
+            <li>SQL</li>
+            <li>Excel المتقدم</li>
+            <li>Data Warehousing</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- ML Engineer -->
+      <div class="job-card">
+        <h3>📈 مهندس تعلم آلي (Machine Learning Engineer)</h3>
+        <p>يطور ويطبق نماذج تعلم آلي في الأنظمة الإنتاجية.</p>
+        <div class="skills">
+          <h4>المهارات المطلوبة:</h4>
+          <ul>
+            <li>Python (scikit-learn, TensorFlow, PyTorch)</li>
+            <li>Algorithms</li>
+            <li>Data Preprocessing</li>
+            <li>Deployment (Docker, APIs)</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Cloud Data Engineer -->
+      <div class="job-card">
+        <h3>☁️ مهندس بيانات سحابية (Cloud Data Engineer)</h3>
+        <p>يدير بنية تحتية للبيانات على AWS, Azure, Google Cloud.</p>
+        <div class="skills">
+          <h4>المهارات المطلوبة:</h4>
+          <ul>
+            <li>AWS (Redshift, Glue)</li>
+            <li>Google BigQuery</li>
+            <li>Azure Data Factory</li>
+            <li>DevOps Tools</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Research Data Analyst -->
+      <div class="job-card">
+        <h3>🧪 محلل أبحاث بيانات (Research Data Analyst)</h3>
+        <p>يستخدم البيانات لدعم الدراسات الأكاديمية والأبحاث العلمية.</p>
+        <div class="skills">
+          <h4>المهارات المطلوبة:</h4>
+          <ul>
+            <li>R</li>
+            <li>SPSS / SAS</li>
+            <li>Python (Pandas, NumPy)</li>
+            <li>Statistics</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Security Data Analyst -->
+      <div class="job-card">
+        <h3>🔒 محلل بيانات أمنية (Security Data Analyst)</h3>
+        <p>يراقب بيانات الأمن السيبراني ويكشف التهديدات.</p>
+        <div class="skills">
+          <h4>المهارات المطلوبة:</h4>
+          <ul>
+            <li>SIEM Tools (Splunk, ELK)</li>
+            <li>Log Analysis</li>
+            <li>Threat Intelligence</li>
+            <li>Python / Bash</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- GIS Data Analyst -->
+      <div class="job-card">
+        <h3>🌍 محلل بيانات جغرافية (GIS Data Analyst)</h3>
+        <p>يعالج بيانات الخرائط والمواقع باستخدام أدوات نظم المعلومات الجغرافية.</p>
+        <div class="skills">
+          <h4>المهارات المطلوبة:</h4>
+          <ul>
+            <li>ArcGIS / QGIS</li>
+            <li>SQL</li>
+            <li>Python (GeoPandas)</li>
+            <li>Remote Sensing</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Bioinformatics Data Scientist -->
+      <div class="job-card">
+        <h3>🧬 عالم بيانات حيوية (Bioinformatics Data Scientist)</h3>
+        <p>يحلل البيانات البيولوجية مثل الجينات والبروتينات باستخدام تقنيات البيانات.</p>
+        <div class="skills">
+          <h4>المهارات المطلوبة:</h4>
+          <ul>
+            <li>Python / R</li>
+            <li>Biopython</li>
+            <li>Machine Learning للتطبيقات الحيوية</li>
+            <li>Genomics Databases</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="dig-deeper">
+      <h2>تريد التعمق أكثر؟</h2>
+      <p>📺 دورة على YouTube: <a href="#">Data Science Crash Course</a></p>
+      <p>📚 منصة: <a href="#">Coursera / DataCamp</a></p>
+      <p>📖 كتاب مجاني: <a href="#">Hands-On Machine Learning</a></p>
+    </div>
+
+    <div class="meme-line">
+      "البيانات هي النفط الجديد، وأنت المهندس اللي بيستخرجها! ⛽📊"
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 تخصصات علوم الحاسوب | كل الحقوق محفوظة</p>
+  </footer>
+
+  <script src="../scripts.js"></script>
+</body>
+</html>

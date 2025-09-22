@@ -1,0 +1,276 @@
+<!-- pages/web-development.html -->
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تطوير الويب | تخصصات علوم الحاسوب</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+  <style>
+    .specialty-page {
+      background: linear-gradient(135deg, #1f4068, #2c5282);
+      color: white;
+      padding: 3rem 5%;
+      min-height: 100vh;
+    }
+    .specialty-header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    .specialty-header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .specialty-header p {
+      font-size: 1.2rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .job-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1.5rem;
+      margin: 2rem 0;
+    }
+    .job-card {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      padding: 1.5rem;
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    .job-card h3 {
+      color: #4895ef;
+      margin-bottom: 0.5rem;
+    }
+    .skills {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 1rem;
+      border-radius: 10px;
+      margin-top: 1rem;
+    }
+    .skills h4 {
+      margin-bottom: 0.5rem;
+      color: #f8f9fa;
+    }
+    .skills ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .skills li {
+      padding: 0.3rem 0;
+      border-bottom: 1px dashed rgba(255, 255, 255, 0.3);
+    }
+    .skills li:last-child {
+      border-bottom: none;
+    }
+    .dig-deeper {
+      text-align: center;
+      padding: 2rem;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 15px;
+      margin-top: 2rem;
+    }
+    .dig-deeper h2 {
+      margin-bottom: 1rem;
+    }
+    .meme-line {
+      text-align: center;
+      margin-top: 3rem;
+      font-size: 1.2rem;
+      color: #4895ef;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">🎓 تخصصات علوم الحاسوب</div>
+    <ul class="nav-links">
+      <li><a href="../index.html">الرئيسية</a></li>
+      <li><a href="#specialties">التخصصات</a></li>
+      <li><a href="contact.html">تواصل معنا</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <section class="specialty-page">
+    <div class="specialty-header">
+      <h1>تطوير الويب</h1>
+      <p>مرحبًا! تطوير الويب هو عالم من الإبداع حيث تُبنى المواقع والتطبيقات التي نستخدمها يوميًا. سواء كنت تحب التصميم أو البرمجة، هنا تجد فرصتك لتكون جزءًا من هذه الرحلة الممتعة! 🌐✨</p>
+    </div>
+
+    <h2 style="text-align: center; margin: 2rem 0;">🚀 الوظائف المتاحة</h2>
+    <div class="job-list">
+      
+      <!-- Frontend Developer -->
+      <div class="job-card">
+        <h3>👨‍💻 مطور واجهة أمامية</h3>
+        <p>يصمم ويطور الواجهات اللي بيشوفها المستخدمون. مهمته جعل المواقع سريعة وسهلة الاستخدام 🎨✨.</p>
+        <div class="skills">
+          <h4>المهارات المطلوبة:</h4>
+          <ul>
+            <li>HTML / CSS</li>
+            <li>JavaScript</li>
+            <li>React / Vue / Angular</li>
+            <li>Responsive Design</li>
+          </ul>
+        </div>
+        <p>📚 كورسات: FreeCodeCamp، The Odin Project، Udemy</p>
+      </div>
+
+      <!-- Backend Developer -->
+      <div class="job-card">
+        <h3>⚙️ مطور خلفية</h3>
+        <p>يتعامل مع الخوادم، قواعد البيانات وAPIs. مهمته التأكد أن كل شيء شغال من وراء الكواليس 🛠️.</p>
+        <div class="skills">
+          <h4>المهارات المطلوبة:</h4>
+          <ul>
+            <li>Node.js / Python / PHP</li>
+            <li>SQL / MongoDB</li>
+            <li>REST & GraphQL APIs</li>
+            <li>Authentication & Security</li>
+          </ul>
+        </div>
+        <p>📚 كورسات: Udemy - Node.js, CS50 Web, Coursera Backend Specialization</p>
+      </div>
+
+      <!-- Full Stack -->
+      <div class="job-card">
+        <h3>🔄 مطور متكامل (Full-Stack)</h3>
+        <p>يجمع بين الواجهة الأمامية والخلفية. بيلعب دور البطل الخارق 👨‍🚀.</p>
+        <div class="skills">
+          <h4>المهارات المطلوبة:</h4>
+          <ul>
+            <li>Frontend + Backend Skills</li>
+            <li>Databases</li>
+            <li>Deployment</li>
+            <li>Problem Solving</li>
+          </ul>
+        </div>
+        <p>📚 كورسات: MERN Stack Bootcamp، Full Stack Open</p>
+      </div>
+
+      <!-- UI/UX Designer -->
+      <div class="job-card">
+        <h3>🎨 مصمم UI/UX</h3>
+        <p>يهتم بشكل الموقع وتجربة المستخدم. هدفه يجعل كل شيء بسيط وجميل 🌈.</p>
+        <div class="skills">
+          <h4>المهارات المطلوبة:</h4>
+          <ul>
+            <li>Figma / Adobe XD</li>
+            <li>User Research</li>
+            <li>Prototyping</li>
+            <li>Design Thinking</li>
+          </ul>
+        </div>
+        <p>📚 كورسات: Google UX Design، Coursera، Interaction Design Foundation</p>
+      </div>
+
+      <!-- Mobile Web Developer -->
+      <div class="job-card">
+        <h3>📱 مطور ويب للموبايل</h3>
+        <p>يبني مواقع سريعة ومتجاوبة للموبايل. أحيانًا يستخدم تقنيات زي PWA 🚀.</p>
+        <div class="skills">
+          <h4>المهارات المطلوبة:</h4>
+          <ul>
+            <li>Responsive Design</li>
+            <li>PWA</li>
+            <li>React Native</li>
+            <li>Flutter Web</li>
+          </ul>
+        </div>
+        <p>📚 كورسات: Udemy PWA، FreeCodeCamp Responsive Web</p>
+      </div>
+
+      <!-- DevOps -->
+      <div class="job-card">
+        <h3>☁️ مهندس DevOps للويب</h3>
+        <p>يتأكد أن الموقع شغال بسرعة ومتوفر دايمًا. يتعامل مع السيرفرات والسحابة ⚡.</p>
+        <div class="skills">
+          <h4>المهارات المطلوبة:</h4>
+          <ul>
+            <li>Docker / Kubernetes</li>
+            <li>AWS / Azure</li>
+            <li>CI/CD</li>
+            <li>Monitoring</li>
+          </ul>
+        </div>
+        <p>📚 كورسات: Docker Mastery، AWS Certified Cloud Practitioner</p>
+      </div>
+
+      <!-- Web Security -->
+      <div class="job-card">
+        <h3>🔒 مختص أمن تطبيقات الويب</h3>
+        <p>يحمي المواقع من الاختراقات والهجمات. هو الحارس الشخصي للموقع 🕵️‍♂️.</p>
+        <div class="skills">
+          <h4>المهارات المطلوبة:</h4>
+          <ul>
+            <li>OWASP Top 10</li>
+            <li>Web PenTesting</li>
+            <li>Authentication</li>
+            <li>SSL / HTTPS</li>
+          </ul>
+        </div>
+        <p>📚 كورسات: OWASP Top 10، Cybrary Web Security</p>
+      </div>
+
+      <!-- E-Commerce -->
+      <div class="job-card">
+        <h3>🛒 مطور متاجر إلكترونية</h3>
+        <p>يبني مواقع بيع أونلاين مثل Shopify و WooCommerce. يساعد الشركات تبيع بسهولة 💰.</p>
+        <div class="skills">
+          <h4>المهارات المطلوبة:</h4>
+          <ul>
+            <li>Shopify / WooCommerce</li>
+            <li>Payment Integration</li>
+            <li>SEO</li>
+            <li>UI/UX</li>
+          </ul>
+        </div>
+        <p>📚 كورسات: Shopify Academy، WordPress Development Bootcamp</p>
+      </div>
+
+      <!-- Web3 -->
+      <div class="job-card">
+        <h3>🌍 مطور Web3 / Blockchain</h3>
+        <p>يبني تطبيقات لامركزية DApps باستخدام البلوك تشين. المستقبل هنا 🚀.</p>
+        <div class="skills">
+          <h4>المهارات المطلوبة:</h4>
+          <ul>
+            <li>Solidity</li>
+            <li>Smart Contracts</li>
+            <li>Ethereum / Polygon</li>
+            <li>dApps Integration</li>
+          </ul>
+        </div>
+        <p>📚 كورسات: CryptoZombies، Ethereum Dev Bootcamp</p>
+      </div>
+
+    </div>
+
+    <div class="dig-deeper">
+      <h2>💡 تريد الاختراق أعمق؟</h2>
+      <p>هناك الكثير من الموارد لمساعدتك على التعلم:</p>
+      <p>🔍 دورة على YouTube: Net Ninja - Web Development</p>
+      <p>📚 منصة تعلّم: FreeCodeCamp</p>
+      <p>📖 كتاب مجاني: Eloquent JavaScript</p>
+    </div>
+
+    <div class="meme-line">
+      "الويب ليس سهلًا، لكنه ممتع! 💻🔥"
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 تخصصات علوم الحاسوب | كل الحقوق محفوظة</p>
+  </footer>
+
+  <script src="../scripts.js"></script>
+</body>
+</html>

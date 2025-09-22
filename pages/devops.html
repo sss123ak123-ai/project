@@ -1,0 +1,205 @@
+<!-- pages/devops.html -->
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ديفوبس | تخصصات علوم الحاسوب</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+  <style>
+    .specialty-page {
+      background: linear-gradient(135deg, #f72585, #7209b7);
+      color: white;
+      padding: 3rem 5%;
+      min-height: 100vh;
+    }
+    .specialty-header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    .specialty-header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .specialty-header p {
+      font-size: 1.2rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .job-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1.5rem;
+      margin: 2rem 0;
+    }
+    .job-card {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      padding: 1.5rem;
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    .job-card h3 {
+      color: #ffd166;
+      margin-bottom: 0.5rem;
+    }
+    .skills {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 1rem;
+      border-radius: 10px;
+      margin-top: 1rem;
+    }
+    .skills h4 {
+      margin-bottom: 0.5rem;
+      color: #f8f9fa;
+    }
+    .skills ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .skills li {
+      padding: 0.3rem 0;
+      border-bottom: 1px dashed rgba(255, 255, 255, 0.3);
+    }
+    .skills li:last-child {
+      border-bottom: none;
+    }
+    .dig-deeper {
+      text-align: center;
+      padding: 2rem;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 15px;
+      margin-top: 2rem;
+    }
+    .dig-deeper h2 {
+      margin-bottom: 1rem;
+    }
+    .dig-deeper a {
+      color: #ffd166;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .meme-line {
+      text-align: center;
+      margin-top: 3rem;
+      font-size: 1.2rem;
+      color: #ffd166;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">🎓 تخصصات علوم الحاسوب</div>
+    <ul class="nav-links">
+      <li><a href="../index.html">الرئيسية</a></li>
+      <li><a href="#specialties">التخصصات</a></li>
+      <li><a href="contact.html">تواصل معنا</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <section class="specialty-page">
+    <div class="specialty-header">
+      <h1>ديفوبس 🚀</h1>
+      <p>ديفوبس هو الجسر بين التطوير والتشغيل. لو بتحب الأتمتة، السرعة، وحل المشاكل... يبقى ده مكانك! ⚙️🔥</p>
+    </div>
+
+    <h2 style="text-align: center; margin: 2rem 0;">💼 الوظائف المتاحة</h2>
+    <div class="job-list">
+      <div class="job-card">
+        <h3>🛠️ مهندس DevOps</h3>
+        <p>يطور أنظمة الأتمتة ويُحسّن النشر والتعاون بين الفرق.</p>
+        <div class="skills">
+          <h4>المهارات المطلوبة:</h4>
+          <ul>
+            <li>CI/CD (Jenkins, GitHub Actions)</li>
+            <li>Docker & Kubernetes</li>
+            <li>Linux</li>
+            <li>Cloud Platforms</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="job-card">
+        <h3>🔍 مهندس موثوقية الموقع (SRE)</h3>
+        <p>يضمن أن الأنظمة مستقرة، آمنة، وسريعة.</p>
+        <div class="skills">
+          <h4>المهارات المطلوبة:</h4>
+          <ul>
+            <li>Monitoring (Prometheus, Grafana)</li>
+            <li>Incident Response</li>
+            <li>Automation</li>
+            <li>Capacity Planning</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="job-card">
+        <h3>☁️ مهندس DevOps سحابي</h3>
+        <p>يتخصص في العمل مع AWS, Azure, أو GCP لنشر وإدارة الأنظمة السحابية.</p>
+        <div class="skills">
+          <h4>المهارات المطلوبة:</h4>
+          <ul>
+            <li>AWS / Azure / GCP</li>
+            <li>Terraform</li>
+            <li>Cloud Security</li>
+            <li>Serverless</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="job-card">
+        <h3>🔒 مهندس DevSecOps</h3>
+        <p>يدمج الأمن في دورة حياة التطوير من أول لحظة.</p>
+        <div class="skills">
+          <h4>المهارات المطلوبة:</h4>
+          <ul>
+            <li>Security Automation</li>
+            <li>Vulnerability Scanning</li>
+            <li>Compliance</li>
+            <li>Secure CI/CD</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="job-card">
+        <h3>📦 مهندس الحاويات</h3>
+        <p>متخصص في إدارة الحاويات والتطبيقات الموزعة.</p>
+        <div class="skills">
+          <h4>المهارات المطلوبة:</h4>
+          <ul>
+            <li>Docker</li>
+            <li>Kubernetes</li>
+            <li>Helm</li>
+            <li>Microservices</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="dig-deeper">
+      <h2>📚 موارد لتبدأ رحلتك</h2>
+      <p>🔍 دورة مجانية: <a href="https://www.youtube.com/watch?v=j5Zsa_eOXeY" target="_blank">DevOps Tutorial - YouTube</a></p>
+      <p>📚 كورس: <a href="https://www.udemy.com/course/devops-foundations/" target="_blank">Udemy - DevOps Foundations</a></p>
+      <p>☁️ كورس سحابي: <a href="https://www.coursera.org/specializations/devops" target="_blank">Coursera DevOps Specialization</a></p>
+      <p>📖 كتاب مجاني: <a href="https://roadmap.sh/devops" target="_blank">DevOps Roadmap</a></p>
+    </div>
+
+    <div class="meme-line">
+      "التطوير + التشغيل = 🚀 ديفوبس السحر اللي بيخلي كل حاجة أسرع!"
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 تخصصات علوم الحاسوب | كل الحقوق محفوظة</p>
+  </footer>
+
+  <script src="../scripts.js"></script>
+</body>
+</html>

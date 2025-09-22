@@ -1,0 +1,350 @@
+<!-- pages/cyber-security.html -->
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>الأمن السيبراني | تخصصات علوم الحاسوب</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+  <style>
+    body { font-family: 'Cairo', sans-serif; }
+    .specialty-page {
+      background: url('https://images.unsplash.com/photo-1532094349884-543bc11b234d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80') center/cover, 
+                  linear-gradient(135deg, #1a2a6c, #2c3e50);
+      color: white;
+      padding: 3rem 5%;
+      min-height: 100vh;
+      position: relative;
+    }
+    .specialty-page::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0, 0, 0, 0.7);
+      z-index: 0;
+    }
+    .specialty-header {
+      text-align: center;
+      margin-bottom: 3rem;
+      position: relative;
+      z-index: 1;
+    }
+    .specialty-header h1 { font-size: 2.5rem; margin-bottom: 1rem; }
+    .specialty-header p { font-size: 1.2rem; max-width: 800px; margin: 0 auto; }
+    .job-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1.5rem;
+      margin: 2rem 0;
+      position: relative;
+      z-index: 1;
+    }
+    .job-card {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      padding: 1.5rem;
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      transition: transform 0.3s ease;
+    }
+    .job-card:hover { transform: translateY(-5px); }
+    .job-card h3 { color: #e74c3c; margin-bottom: 0.5rem; }
+    .skills, .courses {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 1rem;
+      border-radius: 10px;
+      margin-top: 1rem;
+    }
+    .skills h4, .courses h4 { margin-bottom: 0.5rem; color: #f8f9fa; }
+    .skills ul, .courses ul { list-style: none; padding-left: 0; }
+    .skills li, .courses li {
+      padding: 0.3rem 0;
+      border-bottom: 1px dashed rgba(255, 255, 255, 0.3);
+    }
+    .skills li:last-child, .courses li:last-child { border-bottom: none; }
+    .dig-deeper {
+      text-align: center;
+      padding: 2rem;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 15px;
+      margin-top: 2rem;
+      position: relative;
+      z-index: 1;
+    }
+    .dig-deeper h2 { margin-bottom: 1rem; }
+    .meme-line {
+      text-align: center;
+      margin-top: 3rem;
+      font-size: 1.2rem;
+      color: #e74c3c;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">🎓 تخصصات علوم الحاسوب</div>
+    <ul class="nav-links">
+      <li><a href="../index.html">الرئيسية</a></li>
+      <li><a href="#specialties">التخصصات</a></li>
+      <li><a href="contact.html">تواصل معنا</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <section class="specialty-page">
+    <div class="specialty-header">
+      <h1>🛡️ الأمن السيبراني</h1>
+      <p>الأمن السيبراني هو خط الدفاع الأول عن بيانات العالم 🌍🔐، مجال مليان تحديات وفرص عمل لا تنتهي!</p>
+    </div>
+
+    <h2 style="text-align: center; margin: 2rem 0;">✨ الوظائف المتاحة في Cyber Security</h2>
+    <div class="job-list">
+      
+      <!-- Red Team -->
+      <div class="job-card">
+        <h3>🔴 Red Team (اختبار اختراق)</h3>
+        <p>يهاجم الأنظمة بشكل أخلاقي لمحاكاة الهاكرز وكشف الثغرات قبل استغلالها.</p>
+        <div class="skills">
+          <h4>🛠️ المهارات:</h4>
+          <ul>
+            <li>Metasploit, Burp Suite</li>
+            <li>Kali Linux & Exploitation</li>
+            <li>Web & Network Hacking</li>
+            <li>OWASP Top 10</li>
+          </ul>
+        </div>
+        <div class="courses">
+          <h4>📚 كورسات:</h4>
+          <ul>
+            <li>CEH (Certified Ethical Hacker)</li>
+            <li>TryHackMe - Offensive Path</li>
+            <li>Udemy: Practical Ethical Hacking</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Blue Team -->
+      <div class="job-card">
+        <h3>🔵 Blue Team (مستجيب للحوادث)</h3>
+        <p>يدافع عن الأنظمة ويراقب الهجمات ويستجيب للحوادث بسرعة ⚡.</p>
+        <div class="skills">
+          <h4>🛠️ المهارات:</h4>
+          <ul>
+            <li>SIEM Tools (Splunk, ELK)</li>
+            <li>Incident Response</li>
+            <li>Digital Forensics</li>
+            <li>Firewalls & IDS/IPS</li>
+          </ul>
+        </div>
+        <div class="courses">
+          <h4>📚 كورسات:</h4>
+          <ul>
+            <li>Blue Team Level 1 (BTL1)</li>
+            <li>TryHackMe - Blue Path</li>
+            <li>Udemy: Incident Response Bootcamp</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- SOC Analyst -->
+      <div class="job-card">
+        <h3>🖥️ SOC Analyst</h3>
+        <p>يعمل في مركز عمليات الأمن، يراقب التنبيهات ويحقق في الأحداث الأمنية.</p>
+        <div class="skills">
+          <h4>🛠️ المهارات:</h4>
+          <ul>
+            <li>SIEM (Splunk, QRadar)</li>
+            <li>Log Analysis</li>
+            <li>Threat Intelligence</li>
+          </ul>
+        </div>
+        <div class="courses">
+          <h4>📚 كورسات:</h4>
+          <ul>
+            <li>Google Cybersecurity Certificate</li>
+            <li>Cybrary: SOC Analyst Training</li>
+            <li>TryHackMe: SOC Level 1</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Threat Hunter -->
+      <div class="job-card">
+        <h3>🕵️ Threat Hunter</h3>
+        <p>يصطاد التهديدات المخفية داخل الشبكات ويبحث عن مؤشرات الاختراق.</p>
+        <div class="skills">
+          <h4>🛠️ المهارات:</h4>
+          <ul>
+            <li>Threat Hunting Frameworks</li>
+            <li>YARA, Sigma Rules</li>
+            <li>Endpoint Security</li>
+          </ul>
+        </div>
+        <div class="courses">
+          <h4>📚 كورسات:</h4>
+          <ul>
+            <li>TryHackMe: Threat Hunting</li>
+            <li>SANS Threat Hunting</li>
+            <li>Udemy: Advanced Threat Hunting</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Malware Analyst -->
+      <div class="job-card">
+        <h3>🐞 Malware Analyst</h3>
+        <p>يحلل البرمجيات الخبيثة لاكتشاف طريقة عملها وصنع أدوات مضادة.</p>
+        <div class="skills">
+          <h4>🛠️ المهارات:</h4>
+          <ul>
+            <li>Reverse Engineering</li>
+            <li>IDA Pro, Ghidra</li>
+            <li>Assembly Language</li>
+          </ul>
+        </div>
+        <div class="courses">
+          <h4>📚 كورسات:</h4>
+          <ul>
+            <li>Practical Malware Analysis (Book)</li>
+            <li>Malware Unicorn Workshops</li>
+            <li>Udemy: Reverse Engineering Basics</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Cryptographer -->
+      <div class="job-card">
+        <h3>🔐 Cryptographer</h3>
+        <p>يطوّر خوارزميات التشفير لحماية البيانات الحساسة.</p>
+        <div class="skills">
+          <h4>🛠️ المهارات:</h4>
+          <ul>
+            <li>Mathematics & Algorithms</li>
+            <li>RSA, AES, ECC</li>
+            <li>Python & C++</li>
+          </ul>
+        </div>
+        <div class="courses">
+          <h4>📚 كورسات:</h4>
+          <ul>
+            <li>Coursera: Applied Cryptography</li>
+            <li>Stanford Crypto Course</li>
+            <li>Khan Academy: Cryptography</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Cloud Security -->
+      <div class="job-card">
+        <h3>☁️ Cloud Security Specialist</h3>
+        <p>يحمي البنية التحتية السحابية مثل AWS و Azure و GCP.</p>
+        <div class="skills">
+          <h4>🛠️ المهارات:</h4>
+          <ul>
+            <li>AWS/Azure Security</li>
+            <li>Cloud IAM</li>
+            <li>Container Security (Docker, K8s)</li>
+          </ul>
+        </div>
+        <div class="courses">
+          <h4>📚 كورسات:</h4>
+          <ul>
+            <li>AWS Security Specialty</li>
+            <li>Udemy: Cloud Security Fundamentals</li>
+            <li>TryHackMe: Cloud Path</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Security Engineer -->
+      <div class="job-card">
+        <h3>⚙️ Security Engineer</h3>
+        <p>يصمم أنظمة آمنة ويضع حلول تقنية لمنع الاختراقات.</p>
+        <div class="skills">
+          <h4>🛠️ المهارات:</h4>
+          <ul>
+            <li>Network Security</li>
+            <li>Secure Architecture</li>
+            <li>Scripting (Python, Bash)</li>
+          </ul>
+        </div>
+        <div class="courses">
+          <h4>📚 كورسات:</h4>
+          <ul>
+            <li>CompTIA Security+</li>
+            <li>CISSP Training</li>
+            <li>Udemy: Security Engineering</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- GRC Specialist -->
+      <div class="job-card">
+        <h3>📊 GRC Specialist</h3>
+        <p>يعمل في الحوكمة والمخاطر والالتزام بالقوانين مثل GDPR و ISO.</p>
+        <div class="skills">
+          <h4>🛠️ المهارات:</h4>
+          <ul>
+            <li>Risk Management</li>
+            <li>ISO 27001</li>
+            <li>Compliance & Policies</li>
+          </ul>
+        </div>
+        <div class="courses">
+          <h4>📚 كورسات:</h4>
+          <ul>
+            <li>Coursera: Risk Management</li>
+            <li>ISO 27001 Foundation</li>
+            <li>Udemy: GRC Basics</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Security Auditor -->
+      <div class="job-card">
+        <h3>📋 Security Auditor</h3>
+        <p>يقوم بعمل تدقيق أمني للتأكد من التزام الأنظمة بالمعايير الأمنية.</p>
+        <div class="skills">
+          <h4>🛠️ المهارات:</h4>
+          <ul>
+            <li>Auditing Standards</li>
+            <li>NIST, ISO Frameworks</li>
+            <li>Risk Assessment</li>
+          </ul>
+        </div>
+        <div class="courses">
+          <h4>📚 كورسات:</h4>
+          <ul>
+            <li>CISA (Certified Information Systems Auditor)</li>
+            <li>Coursera: IT Auditing</li>
+            <li>Udemy: Security Audit Fundamentals</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="dig-deeper">
+      <h2>🚀 تريد تتعمق أكثر؟</h2>
+      <p>📖 كتاب: Cybersecurity for Beginners</p>
+      <p>🎓 منصة: <a href="https://tryhackme.com" target="_blank">TryHackMe</a></p>
+      <p>🎥 قناة يوتيوب: John Hammond</p>
+    </div>
+
+    <div class="meme-line">
+      "الاختراق ممتع 😎، بس الحماية أمتع 🛡️🔥"
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 تخصصات علوم الحاسوب | كل الحقوق محفوظة</p>
+  </footer>
+
+  <script src="../scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,205 @@
+<!-- pages/networks.html -->
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>الشبكات | تخصصات علوم الحاسوب</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+  <style>
+    .specialty-page {
+      background: linear-gradient(135deg, #0d6efd, #1e3a8a);
+      color: white;
+      padding: 3rem 5%;
+      min-height: 100vh;
+    }
+    .specialty-header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    .specialty-header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .specialty-header p {
+      font-size: 1.2rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .job-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1.5rem;
+      margin: 2rem 0;
+    }
+    .job-card {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      padding: 1.5rem;
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    .job-card h3 {
+      color: #4895ef;
+      margin-bottom: 0.5rem;
+    }
+    .skills {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 1rem;
+      border-radius: 10px;
+      margin-top: 1rem;
+    }
+    .skills h4 {
+      margin-bottom: 0.5rem;
+      color: #f8f9fa;
+    }
+    .skills ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .skills li {
+      padding: 0.3rem 0;
+      border-bottom: 1px dashed rgba(255, 255, 255, 0.3);
+    }
+    .skills li:last-child {
+      border-bottom: none;
+    }
+    .dig-deeper {
+      text-align: center;
+      padding: 2rem;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 15px;
+      margin-top: 2rem;
+    }
+    .dig-deeper h2 {
+      margin-bottom: 1rem;
+    }
+    .dig-deeper a {
+      color: #ffd166;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .meme-line {
+      text-align: center;
+      margin-top: 3rem;
+      font-size: 1.2rem;
+      color: #4895ef;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">🎓 تخصصات علوم الحاسوب</div>
+    <ul class="nav-links">
+      <li><a href="../index.html">الرئيسية</a></li>
+      <li><a href="#specialties">التخصصات</a></li>
+      <li><a href="contact.html">تواصل معنا</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <section class="specialty-page">
+    <div class="specialty-header">
+      <h1>الشبكات 🌐</h1>
+      <p>الشبكات هي شريان الحياة للعالم الرقمي. إذا كنت تحب فهم كيفية تدفق البيانات وربط العالم ببعضه، فهذا التخصص لك! ⚡🔗</p>
+    </div>
+
+    <h2 style="text-align: center; margin: 2rem 0;">💼 الوظائف المتاحة</h2>
+    <div class="job-list">
+      <div class="job-card">
+        <h3>🛠️ مهندس شبكات</h3>
+        <p>يصمم ويدير شبكات الشركات ويضمن اتصال آمن وسلس.</p>
+        <div class="skills">
+          <h4>المهارات المطلوبة:</h4>
+          <ul>
+            <li>Cisco / Juniper</li>
+            <li>Routing & Switching</li>
+            <li>TCP/IP, DHCP, DNS</li>
+            <li>Network Troubleshooting</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="job-card">
+        <h3>📐 مصمم شبكات</h3>
+        <p>يضع هيكلية الشبكات للشركات الكبرى لتكون قابلة للتوسع.</p>
+        <div class="skills">
+          <h4>المهارات المطلوبة:</h4>
+          <ul>
+            <li>Network Architecture</li>
+            <li>SDN (Software Defined Networking)</li>
+            <li>Cloud Networking</li>
+            <li>Documentation</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="job-card">
+        <h3>🔒 مسؤول أمن الشبكات</h3>
+        <p>يحمي الشبكات من الهجمات ويطبق أنظمة الحماية.</p>
+        <div class="skills">
+          <h4>المهارات المطلوبة:</h4>
+          <ul>
+            <li>Firewalls & IDS/IPS</li>
+            <li>VPN</li>
+            <li>Penetration Testing</li>
+            <li>Cybersecurity Basics</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="job-card">
+        <h3>☁️ مهندس شبكات سحابية</h3>
+        <p>يتعامل مع شبكات AWS / Azure / GCP ويوفر الاتصال بين الخدمات.</p>
+        <div class="skills">
+          <h4>المهارات المطلوبة:</h4>
+          <ul>
+            <li>Cloud Platforms</li>
+            <li>Hybrid Networking</li>
+            <li>Automation</li>
+            <li>SD-WAN</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="job-card">
+        <h3>📡 مسؤول البنية التحتية</h3>
+        <p>يدير مراكز البيانات، أجهزة الراوتر والسويتشات ويضمن الأداء.</p>
+        <div class="skills">
+          <h4>المهارات المطلوبة:</h4>
+          <ul>
+            <li>Data Center Networking</li>
+            <li>Load Balancers</li>
+            <li>VoIP</li>
+            <li>Monitoring Tools</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="dig-deeper">
+      <h2>📚 موارد لتبدأ رحلتك</h2>
+      <p>🔍 دورة مجانية: <a href="https://www.youtube.com/watch?v=qiQR5rTSshw" target="_blank">Computer Networking Course - YouTube</a></p>
+      <p>📚 كورس: <a href="https://www.udemy.com/course/complete-networking-fundamentals-course-ccna-start/" target="_blank">Udemy - Networking Fundamentals</a></p>
+      <p>☁️ كورس سحابي: <a href="https://www.coursera.org/specializations/computer-networking" target="_blank">Coursera - Computer Networking</a></p>
+      <p>📖 كتاب مجاني: <a href="https://drive.google.com/file/d/1GUGy4uYyG_KjQhzDJkCQQy0rGUNShUMJ/view" target="_blank">كتاب شبكات للمبتدئين</a></p>
+    </div>
+
+    <div class="meme-line">
+      "الشبكات تربط العالم... وأنت اللي هتربط النقاط! 🌍✨"
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 تخصصات علوم الحاسوب | كل الحقوق محفوظة</p>
+  </footer>
+
+  <script src="../scripts.js"></script>
+</body>
+</html>

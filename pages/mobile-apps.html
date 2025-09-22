@@ -1,0 +1,205 @@
+<!-- pages/mobile-apps.html -->
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تطبيقات الجوال | تخصصات علوم الحاسوب</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+  <style>
+    .specialty-page {
+      background: linear-gradient(135deg, #1a2a6c, #b21f1f, #1a2a6c);
+      color: white;
+      padding: 3rem 5%;
+      min-height: 100vh;
+    }
+    .specialty-header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    .specialty-header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .specialty-header p {
+      font-size: 1.2rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .job-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1.5rem;
+      margin: 2rem 0;
+    }
+    .job-card {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      padding: 1.5rem;
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    .job-card h3 {
+      color: #f39c12;
+      margin-bottom: 0.5rem;
+    }
+    .skills {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 1rem;
+      border-radius: 10px;
+      margin-top: 1rem;
+    }
+    .skills h4 {
+      margin-bottom: 0.5rem;
+      color: #f8f9fa;
+    }
+    .skills ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .skills li {
+      padding: 0.3rem 0;
+      border-bottom: 1px dashed rgba(255, 255, 255, 0.3);
+    }
+    .skills li:last-child {
+      border-bottom: none;
+    }
+    .dig-deeper {
+      text-align: center;
+      padding: 2rem;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 15px;
+      margin-top: 2rem;
+    }
+    .dig-deeper h2 {
+      margin-bottom: 1rem;
+    }
+    .dig-deeper a {
+      color: #ffd166;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .meme-line {
+      text-align: center;
+      margin-top: 3rem;
+      font-size: 1.2rem;
+      color: #f39c12;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">🎓 تخصصات علوم الحاسوب</div>
+    <ul class="nav-links">
+      <li><a href="../index.html">الرئيسية</a></li>
+      <li><a href="#specialties">التخصصات</a></li>
+      <li><a href="contact.html">تواصل معنا</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <section class="specialty-page">
+    <div class="specialty-header">
+      <h1>تطبيقات الجوال 📱</h1>
+      <p>عالم تطبيقات الجوال مليء بالفرص لبناء تجارب مستخدم مذهلة. سواء كنت تحب البرمجة أو التصميم أو الألعاب، ستجد مكانك هنا! ✨</p>
+    </div>
+
+    <h2 style="text-align: center; margin: 2rem 0;">💼 الوظائف المتاحة</h2>
+    <div class="job-list">
+      <div class="job-card">
+        <h3>🤖 مطور أندرويد</h3>
+        <p>يبني تطبيقات Android باستخدام Kotlin أو Java.</p>
+        <div class="skills">
+          <h4>المهارات المطلوبة:</h4>
+          <ul>
+            <li>Kotlin / Java</li>
+            <li>Android SDK</li>
+            <li>Jetpack Compose</li>
+            <li>UI/UX Basics</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="job-card">
+        <h3>🍏 مطور iOS</h3>
+        <p>ينشئ تطبيقات iOS باستخدام Swift أو Objective-C.</p>
+        <div class="skills">
+          <h4>المهارات المطلوبة:</h4>
+          <ul>
+            <li>Swift / Objective-C</li>
+            <li>iOS SDK</li>
+            <li>Xcode</li>
+            <li>Human Interface Guidelines</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="job-card">
+        <h3>🌍 مطور تطبيقات هجينة</h3>
+        <p>يبني تطبيقات تعمل على Android و iOS باستخدام تقنيات Cross-platform.</p>
+        <div class="skills">
+          <h4>المهارات المطلوبة:</h4>
+          <ul>
+            <li>Flutter</li>
+            <li>React Native</li>
+            <li>Ionic / Xamarin</li>
+            <li>API Integration</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="job-card">
+        <h3>🎮 مطور ألعاب موبايل</h3>
+        <p>يصمم ويبني ألعاب على الهواتف باستخدام محركات الألعاب.</p>
+        <div class="skills">
+          <h4>المهارات المطلوبة:</h4>
+          <ul>
+            <li>Unity / Unreal Engine</li>
+            <li>C# / C++</li>
+            <li>Mobile Graphics</li>
+            <li>Game Monetization</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="job-card">
+        <h3>🎨 مصمم واجهات وتجربة مستخدم (UI/UX)</h3>
+        <p>يصمم تجربة استخدام بصرية وسلسة للتطبيقات.</p>
+        <div class="skills">
+          <h4>المهارات المطلوبة:</h4>
+          <ul>
+            <li>Figma / Adobe XD</li>
+            <li>Wireframing</li>
+            <li>Prototyping</li>
+            <li>User Research</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="dig-deeper">
+      <h2>📚 موارد لتبدأ رحلتك</h2>
+      <p>🔍 دورة مجانية: <a href="https://www.youtube.com/watch?v=fis26HvvDII" target="_blank">Android Development for Beginners - YouTube</a></p>
+      <p>🍏 دورة iOS: <a href="https://www.udemy.com/course/ios-13-app-development-bootcamp/" target="_blank">Udemy - iOS Development Bootcamp</a></p>
+      <p>🌍 دورة Cross-platform: <a href="https://www.coursera.org/specializations/flutter" target="_blank">Coursera - Flutter Specialization</a></p>
+      <p>📖 كتاب مجاني: <a href="https://drive.google.com/file/d/1UwhFi5W9w1YH7M06pCuNj2k8D8qWnFvZ/view" target="_blank">كتاب برمجة تطبيقات الموبايل</a></p>
+    </div>
+
+    <div class="meme-line">
+      "الجوال ذكي... بس التطبيقات اللي هتبنيها أذكى! 😎🚀"
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 تخصصات علوم الحاسوب | كل الحقوق محفوظة</p>
+  </footer>
+
+  <script src="../scripts.js"></script>
+</body>
+</html>

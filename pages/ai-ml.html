@@ -1,0 +1,247 @@
+<!-- pages/ai-ml.html -->
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>الذكاء الاصطناعي / تعلم الآلة | تخصصات علوم الحاسوب</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+  <style>
+    body { font-family: 'Cairo', sans-serif; }
+    .specialty-page {
+      background: linear-gradient(135deg, #480ca8, #4cc9f0);
+      color: white;
+      padding: 3rem 5%;
+      min-height: 100vh;
+    }
+    .specialty-header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    .specialty-header h1 { font-size: 2.5rem; margin-bottom: 1rem; }
+    .specialty-header p { font-size: 1.2rem; max-width: 800px; margin: 0 auto; }
+    .job-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1.5rem;
+      margin: 2rem 0;
+    }
+    .job-card {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      padding: 1.5rem;
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .job-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+    }
+    .job-card h3 { color: #4cc9f0; margin-bottom: 0.5rem; }
+    .skills, .courses {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 1rem;
+      border-radius: 10px;
+      margin-top: 1rem;
+    }
+    .skills h4, .courses h4 { margin-bottom: 0.5rem; color: #f8f9fa; }
+    .skills ul, .courses ul { list-style: none; padding-left: 0; }
+    .skills li, .courses li {
+      padding: 0.3rem 0;
+      border-bottom: 1px dashed rgba(255, 255, 255, 0.3);
+    }
+    .skills li:last-child, .courses li:last-child { border-bottom: none; }
+    .dig-deeper {
+      text-align: center;
+      padding: 2rem;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 15px;
+      margin-top: 2rem;
+    }
+    .dig-deeper h2 { margin-bottom: 1rem; }
+    .meme-line {
+      text-align: center;
+      margin-top: 3rem;
+      font-size: 1.2rem;
+      color: #4cc9f0;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">🎓 تخصصات علوم الحاسوب</div>
+    <ul class="nav-links">
+      <li><a href="../index.html">الرئيسية</a></li>
+      <li><a href="#specialties">التخصصات</a></li>
+      <li><a href="contact.html">تواصل معنا</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <section class="specialty-page">
+    <div class="specialty-header">
+      <h1>🤖 الذكاء الاصطناعي / تعلم الآلة</h1>
+      <p>مستقبل التكنولوجيا يبدأ هنا! ✨ إذا كنت تحب الابتكار، فهذا المجال يتيح لك بناء أنظمة تفكر وتتطور مثل البشر 👩‍💻🧠.</p>
+    </div>
+
+    <h2 style="text-align: center; margin: 2rem 0;">🚀 الوظائف المتاحة في AI / ML</h2>
+    <div class="job-list">
+      
+      <!-- Researcher -->
+      <div class="job-card">
+        <h3>🔬 باحث تعلم الآلة</h3>
+        <p>يبتكر خوارزميات جديدة ويطور طرق تدريب النماذج.</p>
+        <div class="skills">
+          <h4>🛠️ المهارات:</h4>
+          <ul>
+            <li>رياضيات متقدمة (الجبر الخطي، الاحتمالات)</li>
+            <li>Python, TensorFlow, PyTorch</li>
+            <li>تحليل الأوراق البحثية</li>
+          </ul>
+        </div>
+        <div class="courses">
+          <h4>📚 كورسات:</h4>
+          <ul>
+            <li>DeepLearning.AI - Coursera</li>
+            <li>Fast.ai Practical Deep Learning</li>
+            <li>MIT OpenCourseWare - ML</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- ML Engineer -->
+      <div class="job-card">
+        <h3>⚙️ مهندس تعلم الآلة</h3>
+        <p>يبني نماذج عملية قابلة للتوسع والنشر في التطبيقات.</p>
+        <div class="skills">
+          <h4>🛠️ المهارات:</h4>
+          <ul>
+            <li>Data Preprocessing</li>
+            <li>Model Deployment (Flask, FastAPI)</li>
+            <li>ML Pipelines</li>
+          </ul>
+        </div>
+        <div class="courses">
+          <h4>📚 كورسات:</h4>
+          <ul>
+            <li>Machine Learning – Andrew Ng</li>
+            <li>Udemy: ML A-Z</li>
+            <li>Coursera: MLOps Specialization</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Data Scientist -->
+      <div class="job-card">
+        <h3>📊 عالم بيانات</h3>
+        <p>يحلل البيانات ويبني نماذج للتنبؤ واتخاذ القرارات الذكية.</p>
+        <div class="skills">
+          <h4>🛠️ المهارات:</h4>
+          <ul>
+            <li>Pandas, NumPy, Scikit-learn</li>
+            <li>Data Visualization (Matplotlib, Seaborn)</li>
+            <li>SQL و Big Data</li>
+          </ul>
+        </div>
+        <div class="courses">
+          <h4>📚 كورسات:</h4>
+          <ul>
+            <li>IBM Data Science Professional Certificate</li>
+            <li>Kaggle Learn Tracks</li>
+            <li>Udemy: Python for Data Science</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- NLP Specialist -->
+      <div class="job-card">
+        <h3>🗣️ مختص معالجة اللغة الطبيعية (NLP)</h3>
+        <p>يصمم أنظمة تفهم النصوص والكلام مثل Chatbots و الترجمة الآلية.</p>
+        <div class="skills">
+          <h4>🛠️ المهارات:</h4>
+          <ul>
+            <li>Transformers (BERT, GPT)</li>
+            <li>Text Mining & Sentiment Analysis</li>
+            <li>Speech Recognition</li>
+          </ul>
+        </div>
+        <div class="courses">
+          <h4>📚 كورسات:</h4>
+          <ul>
+            <li>Hugging Face Course</li>
+            <li>Stanford CS224N (NLP)</li>
+            <li>Udemy: NLP with Python</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Computer Vision -->
+      <div class="job-card">
+        <h3>👁️ مختص رؤية حاسوبية</h3>
+        <p>يطور أنظمة تفهم الصور والفيديو مثل التعرف على الوجه والمركبات الذاتية.</p>
+        <div class="skills">
+          <h4>🛠️ المهارات:</h4>
+          <ul>
+            <li>OpenCV, TensorFlow</li>
+            <li>CNNs, Object Detection</li>
+            <li>Image Segmentation</li>
+          </ul>
+        </div>
+        <div class="courses">
+          <h4>📚 كورسات:</h4>
+          <ul>
+            <li>Coursera: Deep Learning for Computer Vision</li>
+            <li>PyImageSearch Tutorials</li>
+            <li>Udemy: Computer Vision A-Z</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- MLOps Engineer -->
+      <div class="job-card">
+        <h3>🛠️ مهندس MLOps</h3>
+        <p>يدمج النماذج في بيئات الإنتاج ويضمن صيانتها بشكل مستمر.</p>
+        <div class="skills">
+          <h4>🛠️ المهارات:</h4>
+          <ul>
+            <li>Docker, Kubernetes</li>
+            <li>CI/CD Pipelines</li>
+            <li>Monitoring ML Models</li>
+          </ul>
+        </div>
+        <div class="courses">
+          <h4>📚 كورسات:</h4>
+          <ul>
+            <li>Coursera: MLOps Specialization</li>
+            <li>Udemy: Kubernetes for Beginners</li>
+            <li>DataTalksClub MLOps Zoomcamp</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="dig-deeper">
+      <h2>🌟 تريد التعمق أكثر؟</h2>
+      <p>📖 كتاب: Hands-On Machine Learning with Scikit-Learn & TensorFlow</p>
+      <p>🎓 منصة: <a href="https://www.kaggle.com" target="_blank">Kaggle</a></p>
+      <p>🎥 قناة يوتيوب: Sentdex</p>
+    </div>
+
+    <div class="meme-line">
+      "الذكاء الاصطناعي مش سحر ✨، لكنه أقرب حاجة ليه! 🤯"
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 تخصصات علوم الحاسوب | كل الحقوق محفوظة</p>
+  </footer>
+
+  <script src="../scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,267 @@
+<!-- pages/databases.html -->
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>قواعد البيانات | تخصصات علوم الحاسوب</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+  <style>
+    body { font-family: 'Cairo', sans-serif; }
+    .specialty-page {
+      background: linear-gradient(135deg, #e63946, #f1faee);
+      color: #1d3557;
+      padding: 3rem 5%;
+      min-height: 100vh;
+    }
+    .specialty-header { text-align: center; margin-bottom: 3rem; }
+    .specialty-header h1 { font-size: 2.5rem; margin-bottom: 1rem; }
+    .specialty-header p { font-size: 1.2rem; max-width: 800px; margin: 0 auto; }
+    .job-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+      gap: 1.5rem;
+      margin: 2rem 0;
+    }
+    .job-card {
+      background: white;
+      border-radius: 15px;
+      padding: 1.5rem;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    .job-card:hover { transform: translateY(-5px); }
+    .job-card h3 { color: #e63946; margin-bottom: .5rem; }
+    .skills, .courses {
+      background: #f1faee;
+      padding: 1rem;
+      border-radius: 10px;
+      margin-top: 1rem;
+    }
+    .skills h4, .courses h4 { margin-bottom: .5rem; color: #1d3557; }
+    .skills ul, .courses ul { list-style: none; padding: 0; }
+    .skills li, .courses li {
+      padding: .3rem 0; border-bottom: 1px dashed #a8dadc;
+    }
+    .skills li:last-child, .courses li:last-child { border-bottom: none; }
+    .dig-deeper {
+      text-align: center;
+      padding: 2rem;
+      background: #f1faee;
+      border-radius: 15px;
+      margin-top: 2rem;
+    }
+    .dig-deeper h2 { margin-bottom: 1rem; }
+    .meme-line {
+      text-align: center;
+      margin-top: 3rem;
+      font-size: 1.2rem;
+      color: #e63946;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">🎓 تخصصات علوم الحاسوب</div>
+    <ul class="nav-links">
+      <li><a href="../index.html">الرئيسية</a></li>
+      <li><a href="#specialties">التخصصات</a></li>
+      <li><a href="contact.html">تواصل معنا</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+  </nav>
+
+  <section class="specialty-page">
+    <div class="specialty-header">
+      <h1>🗄️ قواعد البيانات</h1>
+      <p>قلب كل تطبيق حديث — كل قرار مبني على البيانات. هذا المجال يوفر وظائف عديدة ⭐</p>
+    </div>
+
+    <h2 style="text-align:center; margin:2rem 0;">الوظائف المطلوبة في السوق</h2>
+    <div class="job-list">
+
+      <!-- DBA -->
+      <div class="job-card">
+        <h3>🛡️ مسؤول قواعد البيانات (DBA)</h3>
+        <p>يضمن عمل قواعد البيانات بموثوقية وأداء عالي، ويعالج الأعطال وحالات استرداد البيانات.</p>
+        <div class="skills">
+          <h4>🛠️ المهارات:</h4>
+          <ul>
+            <li>SQL Server / Oracle / MySQL</li>
+            <li>Backup & Recovery Strategies</li>
+            <li>Performance Tuning</li>
+            <li>Security & User Management</li>
+          </ul>
+        </div>
+        <div class="courses">
+          <h4>📚 كورسات:</h4>
+          <ul>
+            <li>YouTube: "DBA Fundamentals" من مهندس Oracle</li>
+            <li>Coursera: Administering Microsoft SQL Server</li>
+            <li>كتاب PDF مجاني: SQL Server Internals</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Data Engineer -->
+      <div class="job-card">
+        <h3>🧱 مهندس بيانات (Data Engineer)</h3>
+        <p>يبني بنى البيانات وETL pipelines لمعالجة كميات ضخمة من البيانات.</p>
+        <div class="skills">
+          <h4>🛠️ المهارات:</h4>
+          <ul>
+            <li>ETL Tools (Talend, Informatica)</li>
+            <li>Big Data Stack (Hadoop, Spark)</li>
+            <li>SQL & NoSQL</li>
+            <li>Python / Scala scripting</li>
+          </ul>
+        </div>
+        <div class="courses">
+          <h4>📚 كورسات:</h4>
+          <ul>
+            <li>Udemy: Data Engineering Masterclass</li>
+            <li>Coursera: Big Data Specialization (UC San Diego)</li>
+            <li>Free YouTube Pipeline project tutorials</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- BI Developer -->
+      <div class="job-card">
+        <h3>📈 مطور ذكاء أعمال (BI Developer)</h3>
+        <p>يخلق تقارير تفاعلية وDashboards لدعم اتخاذ القرار في الشركات.</p>
+        <div class="skills">
+          <h4>🛠️ المهارات:</h4>
+          <ul>
+            <li>Power BI / Tableau</li>
+            <li>Data Warehousing</li>
+            <li>SQL & DAX</li>
+            <li>ETL Pipelines</li>
+          </ul>
+        </div>
+        <div class="courses">
+          <h4>📚 كورسات:</h4>
+          <ul>
+            <li>Microsoft Learn: Power BI Fundamentals</li>
+            <li>Coursera: Data Warehousing</li>
+            <li>Udemy: Tableau 2025 A-Z</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Database Architect -->
+      <div class="job-card">
+        <h3>🏛️ مهندس معماري قواعد البيانات (DB Architect)</h3>
+        <p>يصمم هيكلية البيانات لكل المشاريع ويتأكد من استدامتها وقابليتها للتوسع.</p>
+        <div class="skills">
+          <h4>🛠️ المهارات:</h4>
+          <ul>
+            <li>Data Modeling</li>
+            <li>Normalization / Denormalization</li>
+            <li>Logical & Physical Design</li>
+            <li>Scalability Planning</li>
+          </ul>
+        </div>
+        <div class="courses">
+          <h4>📚 كورسات:</h4>
+          <ul>
+            <li>Coursera: Data Modeling and Relational DB</li>
+            <li>YouTube: "Designing Data Architecture"</li>
+            <li>كتاب PDF: The Data Warehouse Toolkit</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Database Developer -->
+      <div class="job-card">
+        <h3>💻 مطور قواعد البيانات (Database Developer)</h3>
+        <p>يكتب استعلامات SQL، إجراءات مخزنة، وتطبيقات قواعد البيانات.</p>
+        <div class="skills">
+          <h4>🛠️ المهارات:</h4>
+          <ul>
+            <li>SQL & PL/SQL / T-SQL</li>
+            <li>Stored Procedures</li>
+            <li>Trigger & Views</li>
+            <li>Optimization Queries</li>
+          </ul>
+        </div>
+        <div class="courses">
+          <h4>📚 كورسات:</h4>
+          <ul>
+            <li>Udemy: SQL Bootcamp</li>
+            <li>Oracle Developer Course</li>
+            <li>كتاب PDF مجاني: SQL Performance Explained</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Data Warehouse Engineer -->
+      <div class="job-card">
+        <h3>🗄️ مهندس مخزن بيانات (Data Warehouse Engineer)</h3>
+        <p>يبني ويصمم مستودعات بيانات تقارير ضخمة وتحليلات عالية الأداء.</p>
+        <div class="skills">
+          <h4>🛠️ المهارات:</h4>
+          <ul>
+            <li>Snowflake, Redshift</li>
+            <li>ETL / ELT</li>
+            <li>Data Warehousing Architecture</li>
+            <li>OLAP & Cube Design</li>
+          </ul>
+        </div>
+        <div class="courses">
+          <h4>📚 كورسات:</h4>
+          <ul>
+            <li>Coursera: Modern Data Warehousing</li>
+            <li>Snowflake University</li>
+            <li>Udemy: Redshift Deep Dive</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Cloud DBA -->
+      <div class="job-card">
+        <h3>☁️ مسؤول قواعد بيانات سحابية (Cloud DBA)</h3>
+        <p>يدير ويضمن أداء قواعد البيانات السحابية في AWS, Azure، Google Cloud.</p>
+        <div class="skills">
+          <h4>🛠️ المهارات:</h4>
+          <ul>
+            <li>AWS RDS / Azure SQL</li>
+            <li>Cloud Migration</li>
+            <li>High Availability & Replication</li>
+            <li>Monitoring & Cost Optimization</li>
+          </ul>
+        </div>
+        <div class="courses">
+          <h4>📚 كورسات:</h4>
+          <ul>
+            <li>Coursera: AWS Database Specialization</li>
+            <li>Microsoft Learn: Azure SQL DBA</li>
+            <li>Google Cloud: Cloud SQL Training</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="dig-deeper">
+      <h2>📚 موارد إضافية للتعمق</h2>
+      <p>دورات YouTube، كتب PDF مجانية، ومنصات تعليمية:</p>
+      <p>🔍 YouTube: قناة "Database Insight"</p>
+      <p>📖 كتب مجانية: Designing Data-Intensive Applications PDF</p>
+      <p>🎓 منصة تعلم: edX / Coursera / Udemy</p>
+    </div>
+
+    <div class="meme-line">
+      "البيانات هي الذهب، وتخصصك هو المنجّم! 💎💻"
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 تخصصات علوم الحاسوب | كل الحقوق محفوظة</p>
+  </footer>
+
+  <script src="../scripts.js"></script>
+</body>
+</html>

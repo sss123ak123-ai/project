@@ -1,0 +1,118 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تخصصات علوم الحاسوب - مرحبا بك!</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="logo">🎓 تخصصات علوم الحاسوب</div>
+    <ul class="nav-links">
+      <li><a href="#home">الرئيسية</a></li>
+      <li><a href="#specialties">التخصصات</a></li>
+      <li><a href="contact.html">تواصل معنا</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <h1>مرحبًا بك في عالم علوم الحاسوب!</h1>
+    <p>اختر تخصصك وابدأ رحلتك في عالم التكنولوجيا المذهل! 🚀</p>
+    <a href="#specialties" class="cta-button">ابدأ هنا</a>
+  </section>
+
+  <!-- Search & Vibe Toggle -->
+  <section class="filter-section">
+    <input type="text" id="search-input" placeholder="ابحث عن تخصص...">
+    <div class="vibe-toggle">
+      <button class="vibe-btn active" data-vibe="career">مسار وظيفي</button>
+      <button class="vibe-btn" data-vibe="learning">مسار تعليمي</button>
+    </div>
+  </section>
+
+  <!-- Specialty Cards -->
+  <section class="specialties" id="specialties">
+    <div class="card" data-key="web-development">
+      <div class="emoji">💻</div>
+      <h3>تطوير الويب</h3>
+      <p class="career-content">وظائف رئيسية: مطور واجهة أمامية، مطور خلفية، مطور Full-Stack</p>
+      <p class="learning-content" style="display:none;">دورات مقترحة: HTML Basics, CSS Advanced</p>
+      <button class="read-more">اقرأ أكثر</button>
+    </div>
+    <div class="card" data-key="mobile-apps">
+      <div class="emoji">📱</div>
+      <h3>تطبيقات الجوال</h3>
+      <p class="career-content">وظائف رئيسية: مطور أندرويد، مطور iOS، Flutter</p>
+      <p class="learning-content" style="display:none;">دورات مقترحة: Flutter Basics, Swift Tutorial</p>
+      <button class="read-more">اقرأ أكثر</button>
+    </div>
+    <div class="card" data-key="cyber-security">
+      <div class="emoji">🔒</div>
+      <h3>الأمن السيبراني</h3>
+      <p class="career-content">وظائف رئيسية: اختبار الاختراق، مراقبة SOC، محلل البرمجيات الخبيثة</p>
+      <p class="learning-content" style="display:none;">دورات مقترحة: Ethical Hacking Basics, Network Security</p>
+      <button class="read-more">اقرأ أكثر</button>
+    </div>
+    <div class="card" data-key="networks">
+      <div class="emoji">🌐</div>
+      <h3>الشبكات</h3>
+      <p class="career-content">وظائف رئيسية: مهندس شبكات، مصمم شبكات، فني NOC</p>
+      <p class="learning-content" style="display:none;">دورات مقترحة: CCNA, Network Fundamentals</p>
+      <button class="read-more">اقرأ أكثر</button>
+    </div>
+    <div class="card" data-key="databases">
+      <div class="emoji">🗃️</div>
+      <h3>قواعد البيانات</h3>
+      <p class="career-content">وظائف رئيسية: مسؤول قواعد بيانات، مهندس بيانات، Mysql Expert</p>
+      <p class="learning-content" style="display:none;">دورات مقترحة: SQL Masterclass, Database Design</p>
+      <button class="read-more">اقرأ أكثر</button>
+    </div>
+    <div class="card" data-key="data-science">
+      <div class="emoji">📊</div>
+      <h3>علوم البيانات</h3>
+      <p class="career-content">وظائف رئيسية: محلل بيانات، عالم بيانات، ML Engineer</p>
+      <p class="learning-content" style="display:none;">دورات مقترحة: Python for Data Science, Statistics Basics</p>
+      <button class="read-more">اقرأ أكثر</button>
+    </div>
+    <div class="card" data-key="devops">
+      <div class="emoji">⚙️</div>
+      <h3>ديفوبس</h3>
+      <p class="career-content">وظائف رئيسية: مهندس ديفوبس، SRE، مهندس سحابة</p>
+      <p class="learning-content" style="display:none;">دورات مقترحة: Docker, Kubernetes Basics</p>
+      <button class="read-more">اقرأ أكثر</button>
+    </div>
+    <div class="card" data-key="embedded-iot">
+      <div class="emoji">🤖</div>
+      <h3>الأنظمة المدمجة / IoT</h3>
+      <p class="career-content">وظائف رئيسية: مطور برمجيات مدمجة، مهندس IoT</p>
+      <p class="learning-content" style="display:none;">دورات مقترحة: Arduino Basics, Embedded C</p>
+      <button class="read-more">اقرأ أكثر</button>
+    </div>
+    <div class="card" data-key="ai-ml">
+      <div class="emoji">🧠</div>
+      <h3>الذكاء الاصطناعي / تعلم الآلة</h3>
+      <p class="career-content">وظائف رئيسية: باحث ML، مهندس بنية ML، مهندس رؤية حاسوبية</p>
+      <p class="learning-content" style="display:none;">دورات مقترحة: TensorFlow Basics, AI Fundamentals</p>
+      <button class="read-more">اقرأ أكثر</button>
+    </div>
+  </section>
+
+  <!-- تعديل في index.html، قسم footer -->
+<footer>
+    <p>© 2025 دليل تخصصات علوم الحاسب. كل الحقوق محفوظة.</p>
+    <p>تم تطويره بواسطة: Abraam Karam</p>
+    <div class="footer-meme">😂 التكنولوجيا حياتنا... حرفيًا!</div>
+</footer>
+  <script src="scripts.js"></script>
+</body>
+</html>

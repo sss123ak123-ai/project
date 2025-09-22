@@ -1,0 +1,324 @@
+
+{
+  "web-development": {
+    "title": "تطوير الويب",
+    "jobs": [
+      {
+        "title": "مطور واجهة أمامية",
+        "description": "يُصمم ويُطور الواجهات التي يراها المستخدمون، باستخدام HTML, CSS, JavaScript. مهمته جعل المواقع سريعة وسهلة الاستخدام.",
+        "skills": ["HTML", "CSS", "JavaScript", "React"],
+        "todo-link": "<!-- TODO: إضافة رابط دورة على YouTube -->"
+      },
+      {
+        "title": "مطور خلفية",
+        "description": "يتعامل مع الخوادم والقواعد البيانات وواجهات البرمجة (APIs). مهمته ضمان سير العمل من الخلفية بسلاسة وسرعة.",
+        "skills": ["Node.js", "Python", "SQL", "Express.js"],
+        "todo-link": "<!-- TODO: إضافة رابط دورة على YouTube -->"
+      },
+      {
+        "title": "مطور Full-Stack",
+        "description": "يجمع بين مهارات الواجهة الأمامية والخلفية. قادر على بناء تطبيقات كاملة من الصفر إلى النهاية.",
+        "skills": ["HTML", "CSS", "JavaScript", "React", "Node.js", "MongoDB"],
+        "todo-link": "<!-- TODO: إضافة رابط دورة على YouTube -->"
+      },
+      {
+        "title": "مهندس UI/UX",
+        "description": "يركز على تجربة المستخدم وتصميم الواجهات الجذابة والسهلة الاستخدام. مهمته تحويل الأفكار إلى تصميمات عملية.",
+        "skills": ["Figma", "Adobe XD", "User Research", "Prototyping"],
+        "todo-link": "<!-- TODO: إضافة رابط دورة على YouTube -->"
+      },
+      {
+        "title": "مهندس أداء الويب",
+        "description": "يُحسّن سرعة المواقع وتجربة المستخدم عبر تحسين التحميل والأداء. مهمته جعل المواقع سريعة حتى على الاتصالات البطيئة.",
+        "skills": ["Lighthouse", "Webpack", "Performance Optimization", "CDN"],
+        "todo-link": "<!-- TODO: إضافة رابط دورة على YouTube -->"
+      },
+      {
+        "title": "مهندس ضمان الجودة (واجهة أمامية)",
+        "description": "يختبر الواجهات الأمامية للتأكد من خلوها من الأخطاء وعملها بسلاسة عبر مختلف المتصفحات والأجهزة.",
+        "skills": ["Jest", "Cypress", "Selenium", "Cross-browser Testing"],
+        "todo-link": "<!-- TODO: إضافة رابط دورة على YouTube -->"
+      },
+      {
+        "title": "أخصائي إمكانية الوصول",
+        "description": "يتأكد من أن المواقع قابلة للاستخدام من قبل جميع المستخدمين، بما فيهم ذوي الإعاقة. مهمته جعل الإنترنت مفتوحًا للجميع.",
+        "skills": ["ARIA", "WCAG", "Screen Readers", "Accessibility Audits"],
+        "todo-link": "<!-- TODO: إضافة رابط دورة على YouTube -->"
+      }
+    ]
+  },
+  "mobile-apps": {
+    "title": "تطبيقات الجوال",
+    "jobs": [
+      {
+        "title": "مطور أندرويد",
+        "description": "يُنشئ تطبيقات أندرويد باستخدام Kotlin أو Java. مهمته تصميم تطبيقات تعمل بشكل ممتاز على أجهزة أندرويد.",
+        "skills": ["Kotlin", "Java", "Android SDK", "Jetpack"],
+        "todo-link": "<!-- TODO: إضافة رابط دورة على YouTube -->"
+      },
+      {
+        "title": "مطور iOS",
+        "description": "يُنشئ تطبيقات آبل باستخدام Swift أو Objective-C. مهمته تصميم تطبيقات تلبي معايير آبل الصارمة.",
+        "skills": ["Swift", "Objective-C", "iOS SDK", "Xcode"],
+        "todo-link": "<!-- TODO: إضافة رابط دورة على YouTube -->"
+      },
+      {
+        "title": "مطور عبر المنصات (Flutter/React Native)",
+        "description": "يُنشئ تطبيقات تعمل على أندرويد وآبل باستخدام إطار عمل واحد. مهمته توفير الوقت والموارد عبر تطوير منصة واحدة.",
+        "skills": ["Flutter", "Dart", "React Native", "JavaScript"],
+        "todo-link": "<!-- TODO: إضافة رابط دورة على YouTube -->"
+      },
+      {
+        "title": "مهندس UX للجوال",
+        "description": "يركز على تجربة المستخدم في تطبيقات الجوال. مهمته تصميم تطبيقات سهلة الاستخدام ومريحة للعين.",
+        "skills": ["Mobile UX Design", "User Testing", "Prototyping", "Figma"],
+        "todo-link": "<!-- TODO: إضافة رابط دورة على YouTube -->"
+      },
+      {
+        "title": "مهندس ضمان جودة الجوال",
+        "description": "يختبر تطبيقات الجوال للتأكد من عملها بشكل صحيح على مختلف الأجهزة والأنظمة. مهمته اكتشاف الأخطاء قبل الوصول للمستخدمين.",
+        "skills": ["Appium", "Manual Testing", "Automated Testing", "Device Farm"],
+        "todo-link": "<!-- TODO: إضافة رابط دورة على YouTube -->"
+      }
+    ]
+  },
+  "cyber-security": {
+    "title": "الأمن السيبراني",
+    "jobs": [
+      {
+        "title": "اختبار اختراق / فريق أحمر",
+        "description": "يُحاكي هجمات القرصنة لتحديد الثغرات قبل اكتشافها من قبل المخترقين. مهمته حماية الأنظمة من الهجمات.",
+        "skills": ["Penetration Testing", "Metasploit", "Kali Linux", "OWASP"],
+        "todo-link": "<!-- TODO: إضافة رابط دورة على YouTube -->"
+      },
+      {
+        "title": "فريق أزرق / مُستجيب للحوادث",
+        "description": "يحمي الأنظمة من الهجمات ويستجيب للحوادث الأمنية بسرعة. مهمته منع الضرر وتجنب تسرب البيانات.",
+        "skills": ["Incident Response", "SIEM", "Firewalls", "Forensics"],
+        "todo-link": "<!-- TODO: إضافة رابط دورة على YouTube -->"
+      },
+      {
+        "title": "محلل SOC",
+        "description": "يراقب الشبكات والأنظمة للعثور على أي نشاط مشبوه. مهمته كشف التهديدات قبل أن تتحول إلى حوادث.",
+        "skills": ["SIEM Tools", "Log Analysis", "Threat Hunting", "Security Monitoring"],
+        "todo-link": "<!-- TODO: إضافة رابط دورة على YouTube -->"
+      },
+      {
+        "title": "محلل البرمجيات الخبيثة",
+        "description": "يحلل البرمجيات الخبيثة لفهم كيفية عملها وكيفية منعها. مهمته حماية الأنظمة من الفيروسات والبرمجيات الضارة.",
+        "skills": ["Malware Analysis", "Reverse Engineering", "Sandboxing", "YARA"],
+        "todo-link": "<!-- TODO: إضافة رابط دورة على YouTube -->"
+      },
+      {
+        "title": "محلل استخبارات التهديدات",
+        "description": "يجمع ويحلل بيانات التهديدات الأمنية لتحليل الاتجاهات والتنبؤ بالهجمات المستقبلية. مهمته حماية المنظمة من التهديدات الجديدة.",
+        "skills": ["Threat Intelligence", "OSINT", "Indicators of Compromise", "MITRE ATT&CK"],
+        "todo-link": "<!-- TODO: إضافة رابط دورة على YouTube -->"
+      },
+      {
+        "title": "محلل الأدلة الجنائية",
+        "description": "يبحث في الأدلة الرقمية لحل الجرائم الإلكترونية. مهمته تتبع المخترقين وجمع الأدلة لمحاكمتهم.",
+        "skills": ["Digital Forensics", "Data Recovery", "Evidence Handling", "Chain of Custody"],
+        "todo-link": "<!-- TODO: إضافة رابط دورة على YouTube -->"
+      },
+      {
+        "title": "مهندس أمان التطبيقات",
+        "description": "يُدمج الأمان في مراحل تطوير التطبيقات لمنع الثغرات الأمنية. مهمته بناء تطبيقات آمنة من البداية.",
+        "skills": ["Secure Coding", "SAST", "DAST", "Application Security"],
+        "todo-link": "<!-- TODO: إضافة رابط دورة على YouTube -->"
+      }
+    ]
+  },
+  "networks": {
+    "title": "الشبكات",
+    "jobs": [
+      {
+        "title": "مهندس شبكات",
+        "description": "يُصمم ويُنشئ ويُدير الشبكات الداخلية والخارجية للشركات. مهمته ضمان اتصال سلس بين الأجهزة والأنظمة.",
+        "skills": ["Cisco", "Routing & Switching", "TCP/IP", "Network Troubleshooting"],
+        "todo-link": "<!-- TODO: إضافة رابط دورة على YouTube -->"
+      },
+      {
+        "title": "مصمم شبكات",
+        "description": "يُخطط وينفذ هياكل الشبكات المعقدة لشركات كبيرة. مهمته بناء شبكات قابلة للتوسع وآمنة.",
+        "skills": ["Network Architecture", "SDN", "Cloud Networking", "Design Documentation"],
+        "todo-link": "<!-- TODO: إضافة رابط دورة على YouTube -->"
+      },
+      {
+        "title": "فني NOC",
+        "description": "يراقب الشبكات 24/7 لضمان التشغيل السلس. مهمته حل المشكلات الفورية وضمان عدم انقطاع الخدمة.",
+        "skills": ["NOC Monitoring", "Incident Management", "Ticketing Systems", "Real-time Alerts"],
+        "todo-link": "<!-- TODO: إضافة رابط دورة على YouTube -->"
+      },
+      {
+        "title": "مهندس لاسلكي",
+        "description": "يُصمم ويُدير شبكات الواي فاي والاتصالات اللاسلكية. مهمته توفير اتصال قوي وآمن لجميع المستخدمين.",
+        "skills": ["Wi-Fi Standards", "RF Analysis", "Wireless Security", "Cisco Wireless"],
+        "todo-link": "<!-- TODO: إضافة رابط دورة على YouTube -->"
+      },
+      {
+        "title": "مهندس أمان الشبكات",
+        "description": "يحمي الشبكات من الهجمات الإلكترونية ويضمن سرية البيانات. مهمته بناء جدران حماية ونظم أمان متقدمة.",
+        "skills": ["Firewalls", "Intrusion Detection", "Network Segmentation", "VPNs"],
+        "todo-link": "<!-- TODO: إضافة رابط دورة على YouTube -->"
+      }
+    ]
+  },
+  "databases": {
+    "title": "قواعد البيانات",
+    "jobs": [
+      {
+        "title": "مسؤول قواعد البيانات (DBA)",
+        "description": "يُدير ويُحافظ على قواعد البيانات. مهمته ضمان الاستقرار والأمان وتحسين الأداء.",
+        "skills": ["SQL", "Database Administration", "Backup & Recovery", "Performance Tuning"],
+        "todo-link": "<!-- TODO: إضافة رابط دورة على YouTube -->"
+      },
+      {
+        "title": "مهندس بيانات",
+        "description": "يُنشئ وينظم أنظمة البيانات الكبيرة. مهمته تحويل البيانات الخام إلى معلومات قابلة للاستخدام.",
+        "skills": ["ETL", "Data Modeling", "Big Data Tools", "Data Pipelines"],
+        "todo-link": "<!-- TODO: إضافة رابط دورة على YouTube -->"
+      },
+      {
+        "title": "مطور ETL",
+        "description": "يُنشئ أنظمة لاستخراج البيانات وتحويلها وتحميلها إلى قواعد البيانات. مهمته جمع البيانات من مصادر متعددة.",
+        "skills": ["ETL Tools", "Python", "SQL", "Data Integration"],
+        "todo-link": "<!-- TODO: إضافة رابط دورة على YouTube -->"
+      },
+      {
+        "title": "مهندس أداء قواعد البيانات",
+        "description": "يُحسّن سرعة استعلامات قواعد البيانات وأدائها. مهمته جعل الاستعلامات تعود بنتائج سريعة حتى مع كميات كبيرة من البيانات.",
+        "skills": ["Query Optimization", "Indexing", "Database Scaling", "Performance Monitoring"],
+        "todo-link": "<!-- TODO: إضافة رابط دورة على YouTube -->"
+      }
+    ]
+  },
+  "data-science": {
+    "title": "علوم البيانات",
+    "jobs": [
+      {
+        "title": "محلل بيانات",
+        "description": "يحلل البيانات ويقدم تقارير لمساعدة الشركات في اتخاذ القرارات. مهمته تحويل الأرقام إلى رؤى عملية.",
+        "skills": ["SQL", "Excel", "Tableau", "Data Visualization"],
+        "todo-link": "<!-- TODO: إضافة رابط دورة على YouTube -->"
+      },
+      {
+        "title": "عالم بيانات",
+        "description": "يستخدم الإحصاء والتعلم الآلي لاستخراج رؤى من البيانات. مهمته بناء نماذج تتنبأ بالاتجاهات المستقبلية.",
+        "skills": ["Python", "R", "Machine Learning", "Statistics"],
+        "todo-link": "<!-- TODO: إضافة رابط دورة على YouTube -->"
+      },
+      {
+        "title": "مهندس التعلم الآلي",
+        "description": "يُنشئ وينشر نماذج الذكاء الاصطناعي في التطبيقات العملية. مهمته جعل النماذج تعمل بشكل فعّال في العالم الحقيقي.",
+        "skills": ["TensorFlow", "PyTorch", "Model Deployment", "MLOps"],
+        "todo-link": "<!-- TODO: إضافة رابط دورة على YouTube -->"
+      },
+      {
+        "title": "باحث علمي",
+        "description": "يُجري أبحاثًا متقدمة في مجالات مثل الذكاء الاصطناعي والتعلم الآلي. مهمته اكتشاف تقنيات جديدة وتحسين النماذج الحالية.",
+        "skills": ["Research Papers", "Advanced Math", "Algorithm Development", "Experimental Design"],
+        "todo-link": "<!-- TODO: إضافة رابط دورة على YouTube -->"
+      },
+      {
+        "title": "مطور BI",
+        "description": "يُنشئ أنظمة تحليل الأعمال لمساعدة الشركات في فهم أدائها. مهمته تحويل البيانات إلى تقارير ورسوم بيانية واضحة.",
+        "skills": ["Power BI", "Tableau", "Data Warehousing", "SQL"],
+        "todo-link": "<!-- TODO: إضافة رابط دورة على YouTube -->"
+      }
+    ]
+  },
+  "devops": {
+    "title": "ديفوبس",
+    "jobs": [
+      {
+        "title": "مهندس ديفوبس",
+        "description": "يُحسّن عملية تطوير البرمجيات من خلال الأتمتة والتعاون بين الفرق. مهمته تسريع نشر التطبيقات وتحسين الجودة.",
+        "skills": ["CI/CD", "Docker", "Kubernetes", "Infrastructure as Code"],
+        "todo-link": "<!-- TODO: إضافة رابط دورة على YouTube -->"
+      },
+      {
+        "title": "مُهندس موثوقية الموقع (SRE)",
+        "description": "يركز على ضمان استقرار وموثوقية الأنظمة. مهمته تجنب انقطاع الخدمة وتحسين الأداء.",
+        "skills": ["Site Reliability", "Monitoring", "Incident Management", "Error Budgets"],
+        "todo-link": "<!-- TODO: إضافة رابط دورة على YouTube -->"
+      },
+      {
+        "title": "مهندس بناء وإطلاق",
+        "description": "يُنشئ أنظمة أتمتة لبناء ونشر التطبيقات. مهمته جعل عملية النشر سلسة وآمنة.",
+        "skills": ["Jenkins", "GitLab CI", "GitHub Actions", "Build Automation"],
+        "todo-link": "<!-- TODO: إضافة رابط دورة على YouTube -->"
+      },
+      {
+        "title": "مهندس سحابة",
+        "description": "يُدير البنية التحتية السحابية ويضمن الكفاءة والأمان. مهمته استخدام خدمات السحابة لتحسين الأداء وتقليل التكاليف.",
+        "skills": ["AWS", "Azure", "GCP", "Cloud Architecture"],
+        "todo-link": "<!-- TODO: إضافة رابط دورة على YouTube -->"
+      }
+    ]
+  },
+  "embedded-iot": {
+    "title": "الأنظمة المدمجة / IoT",
+    "jobs": [
+      {
+        "title": "مطور برمجيات مدمجة",
+        "description": "يُنشئ أنظمة مدمجة للأجهزة مثل السيارات الذكية والروبوتات. مهمته برمجة الأجهزة لتعمل بكفاءة.",
+        "skills": ["Embedded C", "Microcontrollers", "RTOS", "Hardware Interfaces"],
+        "todo-link": "<!-- TODO: إضافة رابط دورة على YouTube -->"
+      },
+      {
+        "title": "مطور البرامج الثابتة",
+        "description": "يُنشئ البرامج الثابتة التي تعمل مباشرة على الأجهزة. مهمته التحكم في الأجهزة بدقة عالية.",
+        "skills": ["Firmware Development", "Assembly", "Hardware Debugging", "BSP"],
+        "todo-link": "<!-- TODO: إضافة رابط دورة على YouTube -->"
+      },
+      {
+        "title": "مهندس أنظمة IoT",
+        "description": "يُصمم ويُنشئ أنظمة إنترنت الأشياء المتصلة. مهمته جعل الأجهزة الذكية تتواصل بسلاسة مع بعضها البعض.",
+        "skills": ["IoT Protocols", "Sensors", "Cloud Integration", "Embedded Linux"],
+        "todo-link": "<!-- TODO: إضافة رابط دورة على YouTube -->"
+      },
+      {
+        "title": "مهندس RTOS",
+        "description": "يُنشئ أنظمة تشغيل حقيقية الوقت للأنظمة المدمجة. مهمته ضمان استجابة الأنظمة في الوقت المناسب.",
+        "skills": ["FreeRTOS", "Zephyr", "Real-time Scheduling", "Embedded Systems"],
+        "todo-link": "<!-- TODO: إضافة رابط دورة على YouTube -->"
+      }
+    ]
+  },
+  "ai-ml": {
+    "title": "الذكاء الاصطناعي / تعلم الآلة",
+    "jobs": [
+      {
+        "title": "باحث تعلم الآلة",
+        "description": "يُجري أبحاثًا متقدمة في خوارزميات التعلم الآلي والذكاء الاصطناعي. مهمته اكتشاف تقنيات جديدة وتحسين النماذج الحالية.",
+        "skills": ["Research Papers", "Advanced Math", "Algorithm Development", "Experimental Design"],
+        "todo-link": "<!-- TODO: إضافة رابط دورة على YouTube -->"
+      },
+      {
+        "title": "مهندس بنية تعلم الآلة",
+        "description": "يُنشئ أنظمة قوية لتدريب ونشر نماذج الذكاء الاصطناعي. مهمته بناء البنية التحتية لدعم النماذج الكبيرة.",
+        "skills": ["ML Infrastructure", "Distributed Training", "Model Serving", "Scalable Systems"],
+        "todo-link": "<!-- TODO: إضافة رابط دورة على YouTube -->"
+      },
+      {
+        "title": "مهندس Model Ops",
+        "description": "يُدير دورة حياة نماذج الذكاء الاصطناعي من التدريب إلى النشر. مهمته ضمان استمرارية الأداء وسهولة الصيانة.",
+        "skills": ["MLOps", "Model Monitoring", "Version Control", "CI/CD for ML"],
+        "todo-link": "<!-- TODO: إضافة رابط دورة على YouTube -->"
+      },
+      {
+        "title": "مهندس رؤية حاسوبية",
+        "description": "يُنشئ أنظمة تفهم وتحلل الصور والفيديوهات. مهمته تمكين الآلات من 'الرؤية' مثل البشر.",
+        "skills": ["Computer Vision", "OpenCV", "Deep Learning", "Image Processing"],
+        "todo-link": "<!-- TODO: إضافة رابط دورة على YouTube -->"
+      },
+      {
+        "title": "مهندس معالجة اللغة الطبيعية",
+        "description": "يُنشئ أنظمة تفهم وتتعامل مع اللغة البشرية. مهمته جعل الآلات تتحدث وتفهم اللغة الطبيعية.",
+        "skills": ["NLP", "Transformers", "Text Analysis", "Speech Recognition"],
+        "todo-link": "<!-- TODO: إضافة رابط دورة على YouTube -->"
+      }
+    ]
+  }
+}
