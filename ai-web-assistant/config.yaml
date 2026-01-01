@@ -1,0 +1,25 @@
+allowed_domains:
+  - example.com
+
+targets:
+  - https://example.com/search
+
+rate_limit_per_minute: 30
+log_dir: logs
+report_dir: reports
+
+payloads:
+  xss:
+    - "aiwebassistantxss"
+    - "\"'><aiwebassistantxss>"
+  sqli_error:
+    - "'\"aiwebassistantxss"
+  ssti:
+    - "{{aiwebassistant_ssti}}"
+    - "${aiwebassistant_ssti}"
+  open_redirect:
+    - "https://example.com/aiwebassistant-safe"
+  info_disclosure:
+    - "aiwebassistant"
+  headers:
+    - "aiwebassistant"
